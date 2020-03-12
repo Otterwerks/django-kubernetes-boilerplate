@@ -31,7 +31,7 @@ def alive(request):
 </pre>
 
 
-4. The `Dockerfile` in this branch is currently configured with `FROM arm32v7/python:3.6`, change this to `FROM python:3.6-buster` if you are not deploying on an ARM based Kubernetes cluster. 
+4. The `Dockerfile` in this directory is currently configured with `FROM arm32v7/python:3.6`, change this to `FROM python:3.6-buster` if you are not deploying on an ARM based Kubernetes cluster. 
 
 5. Place `Dockerfile` into the Django project root directory, build and push the image to DockerHub. 
 
